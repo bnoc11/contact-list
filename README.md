@@ -27,7 +27,13 @@ This project focuses on:
   - Update contacts
   - Delete contacts
 
-## ⚙️ Environment Variables
+## ▶️ Running the Application
+
+Install the project dependencies:
+
+```bash
+npm install
+```
 
 Create a `.env` file in the project root and add the following variables:
 
@@ -40,6 +46,20 @@ Example:
 PORT=3000
 MONGO_URI=<your_mongodb_connection_string>
 ```
+
+Start the Webpack build in one terminal:
+
+```bash
+npm run build
+```
+
+Then, in a second terminal, start the application:
+
+```bash
+npm start
+```
+
+Once the server is running, open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🚧 Disclaimer
 
